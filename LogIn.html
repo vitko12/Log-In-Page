@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in/Sing up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="from-wrapper sing-in">
+            <form action="">
+                <h2>Sing in</h2>
+                <div class="input-group">
+                    <input type="text" required>
+                    <label for="">Username</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" required>
+                    <label for="">password</label>
+                </div>
+                <div class="remember">
+                    <label><input type="checkbox"> Remember me </label>
+                </div>
+                <button type="submit">Sing in</button>
+                <div class="singUp-link">
+                    <p>Don't have an account? <a href="#" class="singUpBtn-link">Sing up</a></p>
+                </div>
+                <div class="social-platform">
+                    <p>Or sing in with</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-google"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="from-wrapper sing-up">
+            <form action="">
+                <h2>Sing Up</h2>
+                <div class="input-group">
+                    <input type="text" required>
+                    <label for="">Username</label>
+                </div>
+                <div class="input-group">
+                    <input type="email" required>
+                    <label for="">Email</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" required>
+                    <label for="">password</label>
+                </div>
+                <div class="remember">
+                    <label><input type="checkbox"> I agree to the terms & conditions </label>
+                </div>
+                <button type="submit">Sing Up</button>
+                <div class="singUp-link">
+                    <p>Already have an account? <a href="#" class="singInBtn-link">Sing In</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
